@@ -18,7 +18,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory( window.__POWERED_BY_QIANKUN__ ? '/app1' : '/'),
+  history: createWebHistory( window.__POWERED_BY_QIANKUN__ ? '/vue3' : '/'),
   routes
 })
 console.log(process.env.BASE_URL)
